@@ -1,0 +1,19 @@
+{
+  "rulesetId": "MVP_RULESET",
+  "version": "1.0",
+  "rules": [
+    {
+      "ruleId": "REQ_POLICY",
+      "type": "required",
+      "field": "policyNumber",
+      "message": "Policy number is required"
+    },
+    {
+      "ruleId": "LEN_POLICY",
+      "type": "length",
+      "field": "policyNumber",
+      "min": 5,
+      "max": 20
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+SELECT * FROM notifications WHERE state IN (0, 1, 5) AND (next_retry_at IS NULL OR next_retry_at <= NOW()) ORDER BY created_at LIMIT 50;
