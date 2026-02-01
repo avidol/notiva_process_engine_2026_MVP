@@ -1,45 +1,44 @@
-using System;
+using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
+
 using ProcessEngine.Worker.Domain;
-using ProcessEngine.Worker.Infrastructure.Persistence;
-using ProcessEngine.Worker.Infrastructure.File;
+using ProcessEngine.Worker.Application.Processing;
 
 namespace ProcessEngine.Worker.Application;
 
 public class NotificationProcessor : INotificationProcessor
 {
-    private readonly INotificationRepository _repo;
-    private readonly FileNotificationHandler _fileHandler;
+    private readonly ProcessingPipeline _pipeline;
     private readonly ILogger<NotificationProcessor> _logger;
 
     public NotificationProcessor(
-        INotificationRepository repo,
-        FileNotificationHandler fileHandler,
+        ProcessingPipeline pipeline,
         ILogger<NotificationProcessor> logger)
     {
-        _repo = repo;
-        _fileHandler = fileHandler;
+        _pipeline = pipeline;
         _logger = logger;
     }
 
-    public async Task ProcessAsync(NotificationItem n, CancellationToken ct)
+    public async Task ProcessAsync(
+        NotificationItem notification,
+        CancellationToken cancellationToken)
     {
-        try
-        {
-            await _repo.MarkProcessingAsync(n.Id);
+        _logger.LogInformation(
+            "Processing notification {NotificationId}",
+            notification.Id);
 
-            await _fileHandler.HandleAsync(n);
+        // Parse persisted JSON payload into a document
+        using var payloadDocument =
+            JsonDocument.Parse(notification.PayloadJson);
 
-            await _repo.MarkCompletedAsync(n.Id);
-        }
-        catch (Exception ex)
-        {
-            _logger.LogError(ex, "Processing failed");
+        // Create processing context shared across steps
+        var context = new ProcessingContext(
+            notification.Id,
+            payloadDocument);
 
-            bool permanent = n.RetryCount >= n.MaxRetry;
-            await _repo.MarkFailedAsync(n.Id, ex.Message, permanent);
-        }
+        // Execute pipeline (may have zero, one, or many steps)
+        await _pipeline.ExecuteAsync(context, cancellationToken);
     }
 }
