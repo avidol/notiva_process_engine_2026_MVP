@@ -1,12 +1,10 @@
 ﻿using System;
-using System.IO;
-using System.Text;
 using System.Text.Json;
 using System.Threading;
 using System.Threading.Tasks;
-using System.Xml;
 using System.Xml.Linq;
 using System.Xml.Schema;
+
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
@@ -20,34 +18,27 @@ public sealed class XmlConversionStep : IProcessingStep
 {
     public string Name => "XML_CONVERSION";
 
-    private readonly IConfiguration _config;
+    private readonly string _xsdPath;
     private readonly IAuditLogger _auditLogger;
     private readonly ILogger<XmlConversionStep> _logger;
 
     public XmlConversionStep(
-        IConfiguration config,
+        IConfiguration configuration,
         IAuditLogger auditLogger,
         ILogger<XmlConversionStep> logger)
     {
-        _config = config;
         _auditLogger = auditLogger;
         _logger = logger;
+
+        _xsdPath = configuration["ProcessingSteps:XmlConversion:XsdPath"]
+            ?? throw new InvalidOperationException(
+                "ProcessingSteps:XmlConversion:XsdPath is not configured");
     }
 
-    public async Task ExecuteAsync(
+    public Task ExecuteAsync(
         ProcessingContext context,
         CancellationToken cancellationToken)
     {
-        var rootName =
-            _config.GetValue<string>("ProcessingSteps:XmlConversion:RootElement")
-            ?? "Root";
-
-        var validate =
-            _config.GetValue<bool>("ProcessingSteps:XmlConversion:Validate");
-
-        var xsdPath =
-            _config.GetValue<string>("ProcessingSteps:XmlConversion:XsdPath");
-
         try
         {
             _auditLogger.Log(new AuditEvent
@@ -56,20 +47,53 @@ public sealed class XmlConversionStep : IProcessingStep
                 Stage = Name,
                 Action = "EXECUTE",
                 Outcome = "START",
-                Details = "Converting JSON to XML"
+                Details = "Converting JSON to canonical XML"
             });
 
-            // Convert JSON → XML
-            var xml = ConvertJsonToXml(context.Payload.RootElement, rootName);
+            JsonElement root = context.Payload.RootElement;
 
-            // Optional XSD validation
-            if (validate && !string.IsNullOrWhiteSpace(xsdPath))
+            // --------------------------------------------------
+            // STEP 1: Unwrap RabbitMQ envelope
+            // --------------------------------------------------
+            if (root.TryGetProperty("Content", out var content))
             {
-                ValidateAgainstXsd(xml, xsdPath);
+                root = content;
             }
 
-            // Store artifact
-            context.Artifacts["XML"] = xml;
+            // --------------------------------------------------
+            // STEP 2: Unwrap file ingestion "raw" payload
+            // --------------------------------------------------
+            if (root.TryGetProperty("raw", out var rawElement)
+                && rawElement.ValueKind == JsonValueKind.String)
+            {
+                root = JsonDocument
+                    .Parse(rawElement.GetString()!)
+                    .RootElement;
+            }
+
+            // --------------------------------------------------
+            // STEP 3: Extract required business field
+            // --------------------------------------------------
+            if (!root.TryGetProperty("policyNumber", out var policy))
+            {
+                throw new InvalidOperationException(
+                    "Required field 'policyNumber' is missing in payload");
+            }
+
+            // --------------------------------------------------
+            // STEP 4: Build canonical XML
+            // --------------------------------------------------
+            var xml = new XElement("Message",
+                new XElement("policyNumber", policy.GetString())
+            );
+
+            ValidateAgainstXsd(xml, _xsdPath);
+
+            // --------------------------------------------------
+            // STEP 5: Store XML artifact
+            // --------------------------------------------------
+            context.Artifacts["XML"] =
+                xml.ToString(SaveOptions.DisableFormatting);
 
             _auditLogger.Log(new AuditEvent
             {
@@ -77,8 +101,10 @@ public sealed class XmlConversionStep : IProcessingStep
                 Stage = Name,
                 Action = "EXECUTE",
                 Outcome = "SUCCESS",
-                Details = "XML generated successfully"
+                Details = "XML generated and validated"
             });
+
+            return Task.CompletedTask;
         }
         catch (Exception ex)
         {
@@ -93,62 +119,44 @@ public sealed class XmlConversionStep : IProcessingStep
 
             throw;
         }
-
-        await Task.CompletedTask;
     }
 
-    // -------------------- Helpers --------------------
 
-    private static string ConvertJsonToXml(JsonElement json, string rootName)
-    {
-        var root = new XElement(rootName);
-        PopulateXml(root, json);
 
-        var doc = new XDocument(
-            new XDeclaration("1.0", "utf-8", "yes"),
-            root);
-
-        return doc.ToString();
-    }
-
-    private static void PopulateXml(XElement parent, JsonElement element)
-    {
-        switch (element.ValueKind)
-        {
-            case JsonValueKind.Object:
-                foreach (var prop in element.EnumerateObject())
-                {
-                    var child = new XElement(prop.Name);
-                    PopulateXml(child, prop.Value);
-                    parent.Add(child);
-                }
-                break;
-
-            case JsonValueKind.Array:
-                foreach (var item in element.EnumerateArray())
-                {
-                    var child = new XElement("Item");
-                    PopulateXml(child, item);
-                    parent.Add(child);
-                }
-                break;
-
-            default:
-                parent.Value = element.ToString();
-                break;
-        }
-    }
-
-    private static void ValidateAgainstXsd(string xml, string xsdPath)
+    // ============================================================
+    // XSD VALIDATION (EXPLICIT CALL – NO EXTENSION RESOLUTION BUG)
+    // ============================================================
+    private static void ValidateAgainstXsd(XElement element, string xsdPath)
     {
         var schemas = new XmlSchemaSet();
         schemas.Add(null, xsdPath);
 
-        var doc = XDocument.Parse(xml);
+        // Wrap XElement in XDocument (required by this overload)
+        var document = new XDocument(element);
 
-        doc.Validate(schemas, (o, e) =>
+        System.Xml.Schema.Extensions.Validate(
+            document,
+            schemas,
+            (sender, args) =>
+            {
+                throw new XmlSchemaValidationException(args.Message);
+            },
+            addSchemaInfo: true
+        );
+    }
+
+    // ============================================================
+    // AUDIT HELPER
+    // ============================================================
+    private void LogAudit(Guid notificationId, string outcome, string details)
+    {
+        _auditLogger.Log(new AuditEvent
         {
-            throw new XmlSchemaValidationException(e.Message);
+            NotificationId = notificationId,
+            Stage = Name,
+            Action = "EXECUTE",
+            Outcome = outcome,
+            Details = details
         });
     }
 }

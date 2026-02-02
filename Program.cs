@@ -16,11 +16,16 @@ using ProcessEngine.Worker.Infrastructure.Persistence;
 using ProcessEngine.Worker.Infrastructure.Processing;
 using ProcessEngine.Worker.Infrastructure.Queue;
 using ProcessEngine.Worker.Infrastructure.Rules;
+using QuestPDF.Infrastructure;
 
 // ------------------------------------------------------------
 // CRITICAL FIX: enable snake_case → PascalCase mapping for Dapper
 // ------------------------------------------------------------
 DefaultTypeMap.MatchNamesWithUnderscores = true;
+
+// QuestPDF license declaration (required)
+QuestPDF.Settings.License = LicenseType.Community;
+
 
 // ------------------------------------------------------------
 // HOST BOOTSTRAP
@@ -79,6 +84,18 @@ Host.CreateDefaultBuilder(args)
         if (config.GetValue<bool>("ProcessingSteps:FileOutput:Enabled"))
         {
             services.AddSingleton<IProcessingStep, FileOutputStep>();
+        }
+        if (config.GetValue<bool>("ProcessingSteps:PdfGeneration:Enabled"))
+        {
+            services.AddSingleton<IProcessingStep, PdfGenerationStep>();
+        }
+        if (config.GetValue<bool>("ProcessingSteps:Email:Enabled"))
+        {
+            services.AddSingleton<IProcessingStep, EmailNotificationStep>();
+        }
+        if (config.GetValue<bool>("ProcessingSteps:PdfOutput:Enabled"))
+        {
+            services.AddSingleton<IProcessingStep, PdfFileOutputStep>();
         }
 
         // ========================================================

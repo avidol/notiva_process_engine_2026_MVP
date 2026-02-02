@@ -3752,3 +3752,646 @@
 2026-01-30T05:37:53.6541230Z | 18e81607-4c65-47d1-a99c-31cb9f51afc5 | RULE_ENGINE | VALIDATE | PASS | All rules passed
 2026-01-30T07:58:27.9050074Z | 3a27cc75-0b21-48c5-8266-7e86338c4c5c | RULE_ENGINE | VALIDATE | PASS | All rules passed
 2026-01-30T13:03:50.2507117Z | 231445e3-4e6d-4ef4-abd9-8e20cd9370ee | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:03.9373078Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:03.9647051Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:46:04.0096072Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:46:08.9648159Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:08.9709439Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:46:08.9733666Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:46:13.9827145Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:13.9943778Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:46:13.9966228Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:46:24.0110156Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:24.0227688Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:46:24.0249627Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:46:44.0671197Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:46:44.0722060Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:46:44.0737236Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:47:19.1364339Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:47:19.1466198Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:47:19.1487845Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:48:24.2732557Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:48:24.2783064Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:48:24.2802937Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T11:50:34.5211615Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T11:50:34.5285953Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to XML
+2026-02-01T11:50:34.5304680Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | The element 'Message' has invalid child element 'raw'. List of possible elements expected: 'policyNumber'.
+2026-02-01T12:15:23.9372215Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:15:23.9785865Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:15:23.9804898Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:19:59.5445724Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:19:59.5500058Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:19:59.5507220Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:20:04.5508126Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:20:04.5630126Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:20:04.5639334Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:20:09.5623213Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:20:09.5678203Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:20:09.5688246Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:20:19.5814357Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:20:19.5859884Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:20:19.5867905Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:20:39.6196254Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:20:39.6253588Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:20:39.6260096Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:21:14.6994629Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:21:14.7124663Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:21:14.7138403Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:22:19.8149755Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:22:19.8224714Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:22:19.8235004Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:24:00.0258621Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:24:00.0303526Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:24:00.0314381Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:24:30.0878829Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:24:30.0933730Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:24:30.0946583Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:28:50.6368820Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:28:50.6419811Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:28:50.6429929Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:37:26.7030022Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:37:26.7197169Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:37:26.7212298Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:41:07.1099005Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:41:07.1323590Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:41:07.1335809Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T12:54:33.6878098Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T12:54:33.6933162Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T12:54:33.6944460Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T13:15:16.0895501Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T13:15:16.0996481Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T13:15:16.1005040Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T13:28:42.7812940Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T13:28:42.7878191Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T13:28:42.7884881Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T14:23:34.2063437Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T14:23:34.2174636Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T14:23:34.2209791Z | 47a3e88d-22ad-4c2b-81a5-e8da848ac891 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T14:37:00.7890110Z | ca1da7cd-737c-45d8-8306-13668eaff119 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T14:37:00.8008143Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T14:37:00.8016576Z | ca1da7cd-737c-45d8-8306-13668eaff119 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:44:59.8261184Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:44:59.8522021Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:44:59.8540276Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:45:04.8415445Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:45:04.8620269Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:45:04.8637387Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:45:09.8595949Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:45:09.8907224Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:45:09.9000975Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:45:19.9009875Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:45:19.9172446Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:45:19.9222510Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:45:39.9444340Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:45:39.9600403Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:45:39.9617786Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:46:15.0135838Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:46:15.0351051Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:46:15.0366222Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:47:20.1673399Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:47:20.1809007Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:47:20.1850688Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:49:30.4621393Z | d365a625-faa0-4655-afc7-f0614bb5f619 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:49:30.4702969Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:49:30.4714335Z | d365a625-faa0-4655-afc7-f0614bb5f619 | XML_CONVERSION | EXECUTE | FAIL | Required field 'policyNumber' is missing in payload
+2026-02-01T15:57:55.5782659Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:57:55.5952636Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:57:55.6873533Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:57:55.6899670Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:57:56.0956785Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T15:58:00.5918979Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:58:00.6083245Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:58:00.6122749Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:58:00.6149694Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:58:00.6168284Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T15:58:05.5995876Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:58:05.6082805Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:58:05.6126369Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:58:05.6149850Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:58:05.6166109Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T15:58:15.6321404Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:58:15.6393736Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:58:15.6422632Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:58:15.6446969Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:58:15.6462086Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T15:58:35.6815887Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:58:35.6915388Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:58:35.6944709Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:58:35.6957029Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:58:35.6970926Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T15:59:10.7690153Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T15:59:10.7776021Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T15:59:10.7798919Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T15:59:10.7811883Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T15:59:10.7826257Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T16:00:16.0475911Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:00:16.0622930Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:00:16.0693832Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:00:16.0718895Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:00:16.0739024Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T16:02:26.4287852Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:02:26.4473568Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:02:26.4524236Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:02:26.4606886Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:02:26.4669236Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | FAIL | 
+
+
+
+Thank you for choosing QuestPDF — one quick step before you continue. Please configure your license.
+
+QuestPDF is free for most teams. Commercial licenses provide legal compliance and long-term support for larger organizations, while funding continued development for everyone. 
+
+Choose the applicable license:
+- Community (free): organizations with less than $1M USD annual gross revenue;
+- Professional / Enterprise (paid): required above this threshold 
+
+Evaluation and non-production use is always permitted under the Community license. 
+
+Set once at application startup:
+// TODO: verify license compliance 
+
+QuestPDF.Settings.License = LicenseType.Community; 
+
+No license key or activation required — we trust you to select the correct option. 
+
+Read more about licensing and pricing: https://www.questpdf.com/license 
+
+We wish you a great experience! 
+
+
+
+
+2026-02-01T16:06:29.4314697Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:06:29.4545699Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:06:29.4745168Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:06:29.4769163Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:06:30.1564598Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:06:30.1834787Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:06:32.5586103Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:06:34.4484673Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:06:34.4687808Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:06:34.4758101Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:06:34.4846291Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:06:34.4964567Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:06:34.5038800Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:06:36.5800121Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:06:44.4791652Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:06:44.4811879Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:06:44.4889250Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:06:44.4972496Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:06:44.4985751Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:06:44.5144493Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:06:44.5166780Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:06:44.5585510Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:06:44.5607487Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:06:44.5622749Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:06:44.5733415Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:06:44.5747446Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:06:46.5142770Z | 8ccb036e-4a1e-4f7d-be49-826470a8a264 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:06:46.9051977Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:06:54.5077843Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:06:54.5241680Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:06:54.5292693Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:06:54.5313869Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:06:54.5440595Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:06:54.5457514Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:06:56.6232643Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:07:14.5438517Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:07:14.5515892Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:07:14.5568316Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:07:14.5581193Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:07:14.5656785Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:07:14.5667913Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:07:16.6672393Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:07:49.6271414Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:07:49.6422314Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:07:49.6465645Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:07:49.6483736Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:07:49.6602108Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:07:49.6619308Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:07:51.7136067Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:08:59.8044681Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:08:59.8182049Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:08:59.8304326Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:08:59.8343701Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:08:59.8433856Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:08:59.8448261Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:09:01.8609951Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:11:10.0631951Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:11:10.0745680Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:11:10.0784044Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:11:10.0791254Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:11:10.0937247Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:11:10.0945412Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:11:12.4252584Z | de202ad3-4c16-4205-a2fd-b4e68f9d34e0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:20:05.9828412Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:20:06.0163443Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:20:06.0451381Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:20:06.0483264Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:20:06.7344539Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:20:06.7403902Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:20:09.0489654Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:20:16.0084225Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:20:16.0257377Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:20:16.0288268Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:20:16.0306744Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:20:16.0427043Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:20:16.0439321Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:20:18.2472167Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:20:26.0326361Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:20:26.0393723Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:20:26.0427051Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:20:26.0452295Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:20:26.0567360Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:20:26.0585662Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:20:28.1477490Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:20:36.0560506Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:20:36.0642829Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:20:36.0691540Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:20:36.0705594Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:20:36.0813770Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:20:36.0859049Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:20:38.2226221Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:20:56.1394160Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:20:56.1593550Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:20:56.1655006Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:20:56.1686476Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:20:56.1794144Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:20:56.1815899Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:20:58.3002894Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:21:31.2283586Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:21:31.2428401Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:21:31.2464510Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:21:31.2484118Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:21:31.2618053Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:21:31.2630399Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:21:33.4785694Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:22:41.5561534Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:22:41.5913044Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:22:41.5940701Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:22:41.5951676Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:22:41.6279649Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:22:41.6292113Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:22:43.9852013Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:24:51.8992719Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:24:51.9132989Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:24:51.9164161Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:24:51.9189049Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:24:51.9310608Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:24:51.9333786Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:24:54.8979806Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:27:25.1918315Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:27:25.2164126Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:27:25.2400855Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:27:25.2442791Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:27:25.6215593Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:27:25.6288973Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:27:27.8141898Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:27:30.2090555Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:27:30.2156091Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:27:30.2192126Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:27:30.2208506Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:27:30.2339607Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:27:30.2353278Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:27:32.6812886Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:27:40.2326789Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:27:40.2412484Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:27:40.2478191Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:27:40.2495889Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:27:40.2708878Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:27:40.2792919Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:27:42.4824354Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:27:50.2536438Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:27:50.2759057Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:27:50.2857463Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:27:50.2875657Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:27:50.2954167Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:27:50.2970701Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:27:52.5415191Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:28:10.2910443Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:28:10.3063136Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:28:10.3098648Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:28:10.3109251Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:28:10.3178679Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:28:10.3190503Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:28:12.4667294Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:28:45.3765268Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:28:45.3929920Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:28:45.4062662Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:28:45.4205746Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:28:45.4372740Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:28:45.4420676Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:28:47.6195985Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:29:10.4402889Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:29:10.4578820Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:29:10.4665645Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:29:10.4677495Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:29:10.4828294Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:29:10.4853554Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:29:12.6276751Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:29:55.5337753Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:29:55.5483000Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:29:55.5571331Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:29:55.5584810Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:29:55.5728103Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:29:55.5793420Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:29:57.8240384Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:32:05.8096269Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:32:05.8257036Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:32:05.8290035Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:32:05.8310820Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:32:05.8492407Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:32:05.8510930Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:32:08.1467819Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:36:26.5998017Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:36:26.6091285Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:36:26.6132735Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:36:26.6167590Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:36:26.6271830Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:36:26.6287306Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:36:28.6944033Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:37:46.7945875Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:37:46.8109069Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:37:46.8191474Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:37:46.8215018Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:37:46.8355169Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:37:46.8369768Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:37:49.0293379Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:44:19.4113134Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:44:19.4309500Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:44:19.4542454Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:44:19.4566907Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:44:20.2893996Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:44:20.2932841Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:44:22.7594240Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:44:24.4320250Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:44:24.4456800Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:44:24.4511905Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:44:24.4523939Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:44:24.4628809Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:44:24.4641897Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:44:26.5790576Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:44:34.4467149Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:44:34.4621772Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:44:34.4651765Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:44:34.4666991Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:44:34.4771292Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:44:34.4786427Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:44:36.7162281Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:44:44.4701643Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:44:44.4856477Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:44:44.4899142Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:44:44.4920180Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:44:44.5058726Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:44:44.5073085Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:44:46.6809105Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:45:04.5058472Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:45:04.5074268Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:45:04.5222506Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:45:04.5262527Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:45:04.5276032Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:45:04.5371501Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:45:04.5391275Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:45:04.5641731Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:45:04.5678138Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:45:04.5696338Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:45:04.5792847Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:45:04.5813734Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:45:06.9181056Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:45:06.9185856Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:45:39.6072869Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:45:39.6201896Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:45:39.6229988Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:45:39.6242426Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:45:39.6308330Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:45:39.6317294Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:45:41.7614073Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-01T16:46:49.7557442Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-01T16:46:49.7719079Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-01T16:46:49.7743857Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-01T16:46:49.7758295Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-01T16:46:49.7851698Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-01T16:46:49.7862865Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-01T16:46:52.0020891Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | The SMTP server requires a secure connection or the client was not authenticated. The server response was: 5.7.0 Authentication Required. For more information, go to
+2026-02-02T06:23:28.1933044Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:23:28.1971522Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:23:28.1980088Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:23:28.2486139Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:23:28.2640756Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:23:28.2715217Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:23:28.2926411Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-02T06:23:28.2943844Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-02T06:23:28.2958485Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | FAIL | The process cannot access the file 'E:\Globsyn\projects\ProcessEngine.Worker\audit\rule-engine.log' because it is being used by another process.
+2026-02-02T06:23:28.7296264Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-02T06:23:28.7363054Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | START | Sending email
+2026-02-02T06:23:28.7376740Z | e3fb3977-643f-4333-ad8b-a2ef691b389d | EMAIL_NOTIFICATION | EXECUTE | FAIL | Email:Smtp:From not configured
+2026-02-02T06:57:20.8582239Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:57:20.8716810Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:57:20.8860922Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-02T06:57:20.8881323Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-02T06:57:21.3665819Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-02T06:57:21.3699501Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email notification
+2026-02-02T06:57:25.5744454Z | 27ebe958-6f9f-48a4-9a65-eb88d78c7da3 | EMAIL_NOTIFICATION | EXECUTE | SUCCESS | Email sent successfully
+2026-02-02T06:57:40.8949217Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:57:40.8959188Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | RULE_ENGINE | VALIDATE | PASS | All rules passed
+2026-02-02T06:57:40.9078913Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:57:40.9093274Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-02T06:57:40.9099495Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-02T06:57:40.9183637Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-02T06:57:40.9190246Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | START | Sending email notification
+2026-02-02T06:57:40.9255779Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | START | Converting JSON to canonical XML
+2026-02-02T06:57:40.9269889Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | XML_CONVERSION | EXECUTE | SUCCESS | XML generated and validated
+2026-02-02T06:57:40.9274613Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | START | Generating PDF from XML
+2026-02-02T06:57:40.9333949Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | PDF_GENERATION | EXECUTE | SUCCESS | PDF generated successfully
+2026-02-02T06:57:40.9340404Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | START | Sending email notification
+2026-02-02T06:57:44.4712436Z | 312b96e0-a916-48b4-b8a4-0a712c9cadb0 | EMAIL_NOTIFICATION | EXECUTE | SUCCESS | Email sent successfully
+2026-02-02T06:57:44.8705240Z | c7aac6ab-4b12-4055-b8f8-6fee12e235bd | EMAIL_NOTIFICATION | EXECUTE | SUCCESS | Email sent successfully

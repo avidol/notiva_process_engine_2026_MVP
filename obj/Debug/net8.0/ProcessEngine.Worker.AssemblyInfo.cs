@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ProcessEngine.Worker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fd7abd8cdd3abd5a44686ee10c4ca6a84c5a8413")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4f705c03d4fe02d47e60300d33b8c62aa7f8b354")]
 [assembly: System.Reflection.AssemblyProductAttribute("ProcessEngine.Worker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ProcessEngine.Worker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
