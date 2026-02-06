@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using System.Net;
 using System.Net.Mail;
 using System.Threading;
@@ -45,52 +46,53 @@ public sealed class EmailNotificationStep : IProcessingStep
                 Details = "Sending email notification"
             });
 
-            // --------------------------------------------------
-            // Read SMTP configuration (STRONGLY typed keys)
-            // --------------------------------------------------
-            var smtpSection = _config.GetSection("ProcessingSteps:Email:Smtp");
+            var smtp = _config.GetSection("ProcessingSteps:Email:Smtp");
 
-            var host = smtpSection["Host"]
-                ?? throw new InvalidOperationException("SMTP Host not configured");
-
-            var port = smtpSection.GetValue<int>("Port");
-            var username = smtpSection["Username"]
-                ?? throw new InvalidOperationException("SMTP Username not configured");
-
-            var password = smtpSection["Password"]
-                ?? throw new InvalidOperationException("SMTP Password not configured");
-
-            var from = smtpSection["From"]
-                ?? throw new InvalidOperationException("SMTP From not configured");
-
-            var to = smtpSection["To"]
-                ?? throw new InvalidOperationException("SMTP To not configured");
-
-            // --------------------------------------------------
-            // Build Mail Message
-            // --------------------------------------------------
-            using var message = new MailMessage
+            var message = new MailMessage
             {
-                From = new MailAddress(from),
+                From = new MailAddress(smtp["From"]!),
                 Subject = "Process Engine Notification",
                 Body = "Your message has been processed successfully.",
                 IsBodyHtml = false
             };
 
-            message.To.Add(new MailAddress(to));
+            message.To.Add(new MailAddress(smtp["To"]!));
 
             // --------------------------------------------------
-            // Configure SMTP client (GMAIL SAFE CONFIG)
+            // 📎 Attach PDF if available
             // --------------------------------------------------
-            using var smtpClient = new SmtpClient(host, port)
+            if (context.Artifacts.TryGetValue("PDF", out var pdfObj)
+                && pdfObj is byte[] pdfBytes)
             {
-                EnableSsl = true,                     // REQUIRED for Gmail
+                var stream = new MemoryStream(pdfBytes);
+
+                var attachment = new Attachment(
+                    stream,
+                    "notification.pdf",
+                    "application/pdf");
+
+                message.Attachments.Add(attachment);
+
+                _logger.LogInformation(
+                    "PDF attached to email for notification {Id}",
+                    context.NotificationId);
+            }
+            else
+            {
+                _logger.LogWarning(
+                    "No PDF found to attach for notification {Id}",
+                    context.NotificationId);
+            }
+
+            using var smtpClient = new SmtpClient(
+                smtp["Host"],
+                smtp.GetValue<int>("Port"))
+            {
+                EnableSsl = true,
                 UseDefaultCredentials = false,
                 Credentials = new NetworkCredential(
-                    username,
-                    password
-                ),
-                DeliveryMethod = SmtpDeliveryMethod.Network
+                    smtp["Username"],
+                    smtp["Password"])
             };
 
             await smtpClient.SendMailAsync(message, cancellationToken);
@@ -117,9 +119,7 @@ public sealed class EmailNotificationStep : IProcessingStep
                 Details = ex.Message
             });
 
-            // IMPORTANT:
-            // Email is NON-FATAL
-            // Do NOT throw → pipeline continues
+            // NON-FATAL step
         }
     }
 }
